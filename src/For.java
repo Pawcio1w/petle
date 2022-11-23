@@ -1,7 +1,8 @@
 public class For {
     public static void main(String[] args) {
-        for (int i=0; i<10; i++){
-            System.out.println("Paweł jest super");
+        String[] cats=new String[]{"Burek", "Mruczuś", "Garfield", "Iskierka"};
+        for (int i=0; i< cats.length; i++){
+            System.out.println(cats[i]);
         }
     }
 }
